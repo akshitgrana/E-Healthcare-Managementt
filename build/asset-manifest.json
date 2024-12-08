@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.031bb7cd.css",
+    "main.js": "/static/js/main.cc356898.js",
+    "static/media/bg-img4.jpg": "/static/media/bg-img4.87e24f2a9f2b1789e5cb.jpg",
+    "static/media/medicine logo.png": "/static/media/medicine logo.d1d3f0d4333090f53008.png",
+    "static/media/avahlogo.png": "/static/media/avahlogo.3f52dab11ee2791a7858.png",
+    "static/media/consult.svg": "/static/media/consult.f03e6afb084fc31ada8c33c93273663c.svg",
+    "static/media/doctor.svg": "/static/media/doctor.f251b7c73e294927686c07c6ef566c43.svg",
+    "static/media/findus.svg": "/static/media/findus.945c4feb67457ea916ef494cdc4c23de.svg",
+    "index.html": "/index.html",
+    "main.031bb7cd.css.map": "/static/css/main.031bb7cd.css.map",
+    "main.cc356898.js.map": "/static/js/main.cc356898.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.031bb7cd.css",
+    "static/js/main.cc356898.js"
+  ]
+}

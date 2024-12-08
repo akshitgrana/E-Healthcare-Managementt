@@ -1,0 +1,214 @@
+.Health-Article-container{
+    margin-left: 60px;
+    margin-right: 25px;
+    height: 488px;
+    overflow: auto;
+    display: grid;
+    scrollbar-width: none;
+    background: #4c0df052;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 12px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
+    margin-top: 44px;
+}
+
+.map-container{
+    height: 488px;
+    margin-bottom: 12px;
+    margin-left: 60px;
+    width: -webkit-fill-available;
+    margin-top: 44px;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
+    background: #acdde5;
+}
+
+.mb-0 {
+  margin-bottom: 0!important;
+  margin-left: 12px;
+  padding: 8px;
+}
+
+.Health-Article-Search{
+  height: 40px;
+  width:520px; 
+  border-radius: 8px;
+  border: none;
+  padding: 8px;
+}
+
+@media screen and (max-width: 1405px) {
+  .Health-Article-container, .appointments-container{
+    width: 85%;
+    margin-left: 60px;
+  }
+}
+
+@media screen and (max-width: 1405px) {
+  .map-container{
+    width: 97%;
+    margin-left: 60px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .Health-Article-container, .appointments-container{
+    width: 85%;
+
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .map-container{
+    width: 93%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .Health-Article-container, .appointments-container{
+    width: 80%;
+  
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .map-container{
+    width: 80%;
+  
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .map-container{
+    width: 86%
+    }
+}
+
+@media screen and (max-width: 780px) {
+  .Health-Article-container, .appointments-container{
+    width: 86%;
+    margin-left: 67px;
+  }
+  .appointment-text{
+    font-size: smaller;
+  }
+  .appointments-container{
+    margin-top: 9rem;
+  }
+}
+
+@media screen and (max-width: 580px){
+  .map-container {
+    width: 80%;
+    margin-left: 40px;
+  }
+}
+
+
+@media screen and (max-width: 580px){
+  .Health-Article-container, .appointments-container {
+    width: 80%;
+    margin-left: 49px;
+  }
+}
+
+
+
+.Article-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #000000;
+  transition: background-color 0.2s ease;
+}
+
+.Article-item:hover {
+  background-color: #fafeffd2!important;
+  color: #000000;
+}
+
+.Article-item-info {
+  flex: 1;
+}
+
+.Article-item h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.Article-item p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #000000;
+}
+
+.Health-Article-list ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 2px;
+}
+
+.Health-Article-list a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.Health-Article-list a:hover {
+  color: #5fcaff;
+}
+
+.body {
+  padding: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px!important;
+    margin-left: -20px!important;
+  }
+  
+  .col-md-6 {
+    position: relative;
+  }
+  
+  .History-card-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .col-md-7 {
+    flex: 0 0 auto!important;
+    width: 50%!important;
+}
+
+  @media (max-width: 700px) {
+    .col-md-6 {
+      flex: 0 0 auto;
+      width: 50%;
+    }
+    .col-md-7 {
+      flex: 0 0 auto;
+      width: 50%;
+    }
+    .History-card-container {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .History-card-container > * {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  
+    .HealthArticle {
+      display: none;
+    }
+  }
+  
+  
